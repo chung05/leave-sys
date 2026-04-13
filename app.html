@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>請假系統</title>
+</head>
+<body>
+
+<h2>請假申請</h2>
+
+<input id="start" type="date"><br><br>
+<input id="end" type="date"><br><br>
+
+<textarea id="reason" placeholder="請假原因"></textarea><br><br>
+
+<button onclick="submitLeave()">送出請假</button>
+
+<p id="msg"></p>
+
+<hr>
+
+<button onclick="logout()">登出</button>
+
+<script type="module" src="./js/leave.js"></script>
+
+</body>
+</html>
